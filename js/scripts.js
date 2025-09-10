@@ -38,6 +38,13 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
+    // Animate hamburger to X
+const hamburger = document.getElementById('hamburger-btn');
+hamburger.addEventListener('click', function () {
+    this.classList.toggle('active');
+});
+
+
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
