@@ -167,21 +167,6 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   height: 50px;
   font-size: 20px;
 }
-/*Main Transtlation Button*/
-.card-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-translate-btn {
-    background: #ffffff33;
-    padding: 6px 10px;
-    border: 1px solid #aaa;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-}
 
 </style>
 </head>
@@ -334,26 +319,15 @@ songsArray.forEach(({ id, song }) => {
   card.dataset.date = song.date || new Date().toISOString();
   
   // Add album art (song.cover should be the image URL or path)
-card.innerHTML = `
-  <div class="card-top">
-      <h3 class="info-field">${song.title.tig} ${song.isDuplicate ? "⚠ (Duplicate)" : ""}</h3>
-
-      <button class="card-translate-btn" data-state="tig">
-          Translate
-      </button>
-  </div>
-
-  <img src="${song.cover}" alt="${song.title.tig} cover"
-       style="width:100%;border-radius:10px;margin-bottom:12px;object-fit:cover;">
-
-  <div class="card-info">
-      <p class="info-field">Author: ${song.author.tig}</p>
-      <p class="info-field">Album: ${song.album.tig}</p>
-      <p class="info-field">Genre: ${song.genre.tig}</p>
-      <p class="info-field">Date: ${song.date}</p>
-  </div>
-`;
-
+  card.innerHTML = `
+    <img src="${song.cover}" alt="${song.title.tig} cover"
+         style="width:100%;border-radius:10px;margin-bottom:12px;object-fit:cover;">
+    <h3>${song.title.tig} ${song.isDuplicate ? "⚠ (Duplicate)" : ""}</h3>
+    <p>Author: ${song.author.tig}</p>
+    <p>Album: ${song.album.tig}</p>
+    <p>Genre: ${song.genre.tig}</p>
+    <p>Date: ${song.date}</p>
+  `;
 
   lyricsGrid.appendChild(card);
   cards.push(card);
@@ -480,46 +454,6 @@ langBtn.addEventListener('click', () => {
   modalContent.innerHTML = displayLyrics;
   langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
 });
-
-  function translateAllCards(toLang) {
-  cards.forEach(card => {
-    const id = card.dataset.id;
-    const song = lyricsData[id];
-
-    // Title
-    const titleEl = card.querySelector("h3.info-field") || card.querySelector("h3");
-    if (titleEl) {
-      if (!titleEl.dataset.original) {
-        titleEl.dataset.original = titleEl.textContent;
-      }
-      titleEl.textContent = (toLang === "latin")
-        ? transliterateTigrinyaToLatin(titleEl.dataset.original)
-        : titleEl.dataset.original;
-    }
-
-    // Info fields (author, album, genre, date)
-    const fields = card.querySelectorAll(".info-field");
-    fields.forEach(field => {
-      if (!field.dataset.original) {
-        field.dataset.original = field.textContent;
-      }
-      field.textContent = (toLang === "latin")
-        ? transliterateTigrinyaToLatin(field.dataset.original)
-        : field.dataset.original;
-    });
-  });
-}
-  let globalState = "tig";
-
-document.getElementById("globalTranslateBtn").addEventListener("click", () => {
-  globalState = globalState === "tig" ? "latin" : "tig";
-
-  translateAllCards(globalState);
-
-  document.getElementById("globalTranslateBtn").textContent =
-    globalState === "tig" ? "Translate All" : "Show Tigrinya";
-});
-
 
 
 // ===== SEARCH (Tigrinya + Latin) =====
@@ -728,19 +662,4 @@ function transliterateTigrinyaToLatin(text) {
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
