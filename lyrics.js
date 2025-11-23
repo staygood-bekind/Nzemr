@@ -9213,7 +9213,7 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     eng: ``
 },       
     song279: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "ናይ ኣምላኽ መንበረ ታቦት", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9221,11 +9221,35 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: `
+
+ናይ ኣምላኽ መንበረ ታቦት፣ ብእግዚኣብሔር ሕርይቲ ብስራት
+ናይ ሰማይ ምድርን ንግስቲ፣ ሰላመይ የቕርበልኪ
+ኦ ኣማላዲት ንሽግረይ፣ ተጥልል ተኽሊ ናይ ሕይወተይ
+ንልመናይን ጸሎትይን፣ ናብ ጎይታ ኣብጽሓለይ
+
+ወሃቢት ኩሉ ሰላመይ፣ ኣቅራቢት ናብ ጎይታ ጸገመይ (2)
+ንልመናይን ጸሎተይን፣ ናብ ጎይታ ኣብጽሕለይ (2)
+
+2. ሓጥያተይ ዝሰትረላ ፡ ማርያመይ ዘይትነጽፍ ዒላ 
+ጽድቂ ሕይወት እትዕድል ፡ ሰላም ኣፈልፊላ 
+ከም ጸሓይ ብሩህ'ዩ ድምቀታ ፡ እዛ ዳግማዊት ሰማይ
+ማርያመይ ዑንቂ ባሕሪ ፡ ኣዲኡ ንኣዶናይ
+
+ዘይትነድድ ዘይትውዳእ ፡ ቖጥቃጥ ተኽሊ ሕይወት ተጥልል(2)    
+ፍሉይ ውህበት ጸጋታታ ፡ ማርያመይ ኣደ ጎይታ(2) 
+
+3. መትንታት ልበይ ተመጊቡ ፡ ምስትንፋስ ድሕነት ተዋሂቡ
+ተኻፊለ በረኸት ጸጋኺ ፡ ናይ እምነት ኣደ ክሰምየኪ
+ዝተራሕወ ማዕጾ ኪዳንኪ ፡ ምሕረት ኣምላኽ ዝመልኦ 
+ዕቤት ናይ ልዕልናኺ ፡ ክነግር ነሕዛብ ከረድኦም 
+
+ዒላ ናይ ቅድስና ፡ ዝተራሕወ ናይ ምሕረት ኪዳና (2) 
+ናባኺ ይምሕጸን ቀሲነ ፡ ከም እተማልድለይ ኣሚነ (2)`,
     eng: ``
 },       
     song280: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9233,11 +9257,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },       
     song281: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9245,11 +9269,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },       
     song282: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9257,11 +9281,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },       
     song283: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9269,11 +9293,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },       
     song284: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9281,11 +9305,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },       
     song285: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9293,11 +9317,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song286: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9305,11 +9329,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song287: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9317,11 +9341,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song288: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9329,11 +9353,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song289: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9341,11 +9365,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song290: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9353,11 +9377,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song291: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9365,11 +9389,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song292: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9377,11 +9401,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song293: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9389,11 +9413,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song294: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9401,11 +9425,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song295: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9413,11 +9437,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song296: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9425,11 +9449,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song297: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9437,11 +9461,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song298: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9449,11 +9473,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song299: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9461,11 +9485,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song300: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9473,11 +9497,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song301: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9485,11 +9509,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song302: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9497,11 +9521,11 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },      
     song303: {
-    title: { tig: "Okay", eng: "" },
+    title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -9509,7 +9533,7 @@ Eግዚኣብሄር ኣምላኽ ዘልኣለማዊ Iኻ
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    tig: ``,
     eng: ``
 },
  
