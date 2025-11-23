@@ -551,31 +551,43 @@ filterLinks.forEach(link => {
     threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
 
     cards.forEach(card => {
-      const id = card.dataset.id;   // <--- THIS is the correct version
-
+      const id = card.dataset.id;
       const song = lyricsData[id];
       const songDate = new Date(song.date);
 
       let show = true;
 
-      if (filter === "tagged") {
+      if (filter === "all") {
+        show = true;
+      }
+
+      else if (filter === "tagged") {
         show = card.classList.contains("taged");
       }
+
+      else if (filter === "amlko") {
+        show = song.genre.eng?.toLowerCase() === "amlko";
+      }
+
+      else if (filter === "msgana") {
+        show = song.genre.eng?.toLowerCase() === "msgana";
+      }
+
       else if (filter === "recent") {
         show = songDate >= threeMonthsAgo;
       }
-      else if (filter !== "all") {
-        show = song.genre.eng.toLowerCase() === filter;
-      }
+
       else if (filter === "duplicates") {
-        show = lyricsData[id].isDuplicate === true;
+        show = song.isDuplicate === true;
       }
+
       card.style.display = show ? "block" : "none";
     });
 
     updateSongCount();
   });
 });
+
 
 // ===== TRANSLITERATION HELPER =====
 function transliterateTigrinyaToLatin(text) {
@@ -650,6 +662,7 @@ function transliterateTigrinyaToLatin(text) {
 
 </body>
 </html>
+
 
 
 
