@@ -192,6 +192,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <li><a href="#" class="filter-link" data-filter="Amlko">🕊️ Amlko</a></li>
     <li><a href="#" class="filter-link" data-filter="Msgana">🙏 Msgana</a></li>
     <li><a href="#" class="filter-link" data-filter="recent">📅 Recent Release</a></li>
+    <li><a href="#" class="filter-link" data-filter="duplicates">⚠️ Duplicates</a></li>
   </ul>
 </nav>
 
@@ -566,7 +567,9 @@ filterLinks.forEach(link => {
       else if (filter !== "all") {
         show = song.genre.eng.toLowerCase() === filter;
       }
-
+      else if (filter === "duplicates") {
+        show = lyricsData[id].isDuplicate === true;
+      }
       card.style.display = show ? "block" : "none";
     });
 
@@ -647,6 +650,7 @@ function transliterateTigrinyaToLatin(text) {
 
 </body>
 </html>
+
 
 
 
